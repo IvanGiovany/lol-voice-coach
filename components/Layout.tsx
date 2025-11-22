@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 interface LayoutProps {
   children: React.ReactNode;
 }
-
+  
 const navItems = [
   { href: "/", label: "Yuumi Voice Coach" },
   { href: "/matchups", label: "Matchup Lab" },
